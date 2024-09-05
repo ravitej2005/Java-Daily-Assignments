@@ -4,12 +4,31 @@ class exercise1{
     int b=20;
     int c=30;
     
-    if ((a>b && b>c)||(a<b && b<c)) {
-      System.out.println("b = "+b+" is the second largest ");
-    } else if ((a>c && c>b)||(a<c && c<b)) {
-      System.out.println("c = "+c+" is the second largest ");
-    } else{
-      System.out.println("a = "+a+" is the second largest ");
+    int largest = 0;
+    int secondLargest = 0;
+
+    if (a>largest) {
+      secondLargest = largest;
+      largest = a;
+    } else if (a>secondLargest) {
+      secondLargest = a;
     }
+
+    if (b>largest) {
+      secondLargest = largest;
+      largest = b;
+    } else if (b>secondLargest) {
+      secondLargest = b;
+    }
+
+    if (c>largest) {
+      secondLargest = largest;
+      largest = c;
+    } else if (c>secondLargest) {
+      secondLargest = c;
+    }
+    
+
+    System.out.println("Second largest number is : "+secondLargest);
   }
 }
