@@ -25,5 +25,6 @@ class prog5 {
     } else {
       System.out.println("Not found");
     }
+    sc.close();
   }
 }

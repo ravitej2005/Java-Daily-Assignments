@@ -9,6 +9,7 @@ class exercise3{
 		b = scanner.nextInt();
 		addCubes(a,b);
 		subSquares(a,b);
+		scanner.close();
 	}
 
 	static int addCubes(int a, int b){

@@ -6,5 +6,6 @@ class prog3 {
     System.out.print("Enter hours : ");
     int a = sc.nextInt();
     System.out.println(a+" hrs. = "+(a*3600)+" seconds");
+    sc.close();
   }
 }

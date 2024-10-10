@@ -8,16 +8,14 @@ class program5 {
     int b = sc.nextInt();
     int c = sc.nextInt();
     int min;
-    if (a<=b&&a<=c) {
-      min = a; 
-    } else if (b<=a&&b<=c) {
+    if (a <= b && a <= c) {
+      min = a;
+    } else if (b <= a && b <= c) {
       min = b;
     } else {
       min = c;
     }
-
-    
-      System.out.println("The minimum number amongs "+a+" "+b+" & "+c+" is "+min);
-    
+    System.out.println("The minimum number amongs " + a + " " + b + " & " + c + " is " + min);
+    sc.close();
   }
 }

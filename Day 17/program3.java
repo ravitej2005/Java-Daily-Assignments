@@ -7,5 +7,6 @@ class program3{
 		int l = sc.nextInt();
 		int b = sc.nextInt();
 		System.out.println("Area of rectangle = "+(l*b));
+		sc.close();
 	}
 }

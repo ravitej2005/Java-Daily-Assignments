@@ -31,5 +31,6 @@ class prog5 {
     // }
 
     System.out.println("Largest element in array is : " + arr[arr.length - 1]);
+    sc.close();
   }
 }

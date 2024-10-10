@@ -11,6 +11,7 @@ class exercise1{
     sub = sub(a,b);
     System.out.println("Addition is : "+add);
     System.out.println("Substraction is : "+sub);
+    scanner.close();
   }
 
   static int add(int a, int b){

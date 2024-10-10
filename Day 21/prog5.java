@@ -19,5 +19,6 @@ class prog5 {
     }
 
     System.out.println("\nSum of array elements is : "+sum);
+    sc.close();
   }
 }

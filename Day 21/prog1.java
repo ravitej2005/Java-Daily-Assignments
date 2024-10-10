@@ -10,6 +10,7 @@ class prog1 {
     } else {
       System.out.println(num+" is Not Prime Number");
     }
+    sc.close();
   }
 
   static boolean isPrime(int a){

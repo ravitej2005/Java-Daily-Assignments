@@ -9,5 +9,6 @@ class exercise5 {
 
     String result = a>b ? a+" is greater" : (b>a ? b+" is greater" : "Both numbers are equal");
     System.out.println(result);
+    sc.close();
   }
 }

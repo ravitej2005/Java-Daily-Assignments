@@ -6,5 +6,6 @@ class prog3 {
     System.out.print("Enter Distance in feet: ");
     float dist = sc.nextFloat();
     System.out.println(dist+" feet is equal to "+(dist*30)+" centimeters");
+    sc.close();
   }
 }

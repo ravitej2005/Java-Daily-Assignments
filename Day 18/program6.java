@@ -21,5 +21,6 @@ class program6 {
         System.out.print(arr[i]+" ");
       }
     }
+    sc.close();
   }
 }

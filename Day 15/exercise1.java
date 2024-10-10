@@ -13,5 +13,6 @@ class exercise1 {
         System.out.print(i+", ");
       }
     }
+    sc.close();
   }
 }

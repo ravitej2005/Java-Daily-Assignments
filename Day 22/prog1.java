@@ -1,6 +1,5 @@
 class prog1 {
   public static void main(String[] args) {
-    boolean isPrime = false;
     for (int i = 1; i <= 100; i++) {
       if (isPrime(i)) {
         System.out.print(i+" ");

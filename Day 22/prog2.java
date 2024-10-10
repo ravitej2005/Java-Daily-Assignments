@@ -14,5 +14,6 @@ class prog2 {
       a = a/10;
     }
     System.out.println("Decimal Number: "+ans);
+    sc.close();
   }
 }

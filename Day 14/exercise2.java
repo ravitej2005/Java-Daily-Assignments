@@ -11,5 +11,6 @@ class exercise2 {
     a = b - a;
     b = b - a;
     System.out.println("After swap : "+a+" "+b);
+    sc.close();
   }
 }

@@ -10,5 +10,6 @@ class prog2 {
         System.out.print(i+" ");
       }
     }
+    sc.close();
   }
 }

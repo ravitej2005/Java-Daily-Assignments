@@ -9,6 +9,7 @@ class exercise3 {
     double time = sc.nextDouble();
     double velo = dist/time;
     System.out.println("Velocity of a particle roaming in space is "+velo+"m/s");
+    sc.close();
     }
   }
 

@@ -8,5 +8,6 @@ class program2 {
     System.out.print("Enter velocity: ");
     int v = sc.nextInt();
     System.out.println("Kinetic Energy of that Object is:"+(double)(0.5*m*v*v));
+    sc.close();
   }
 }

@@ -18,5 +18,6 @@ class exercise2 {
    } else {
     System.out.println("The minimum number amongst "+a+" & "+b+" is "+min);
    }
+   sc.close();
   }
 }

@@ -21,5 +21,6 @@ class program2 {
       }
       System.out.println("Factorial of "+i+" = "+factorial);
     }
+    sc.close();
   }
 }

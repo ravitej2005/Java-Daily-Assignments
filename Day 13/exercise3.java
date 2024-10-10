@@ -11,5 +11,6 @@ class exercise3 {
       }
       System.out.println();
     }
+    sc.close();
   }
 }

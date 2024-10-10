@@ -9,6 +9,7 @@ class exercise2{
 		b = scanner.nextInt();
 		product(a,b);
 		division(a,b);
+		scanner.close();
 	}
 
 	static void product(int a, int b){	

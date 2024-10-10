@@ -12,5 +12,6 @@ class exercise3 {
         System.out.println("Cube of "+i+": "+cube+"  and Square of "+i+": "+squr);
       }
     }
+    sc.close();
   }
 }

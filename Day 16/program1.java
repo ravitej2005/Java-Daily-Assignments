@@ -22,5 +22,6 @@ class program1 {
     } else {
       System.out.println(num+" is not perfect number");
     }
+    sc.close();
   }
 }

@@ -15,9 +15,7 @@ class exercise5 {
     } else {
       max = c;
     }
-
-    
-      System.out.println("The maximum number amongs "+a+" "+b+" & "+c+" is "+max);
-    
+    System.out.println("The maximum number amongs "+a+" "+b+" & "+c+" is "+max);
+    sc.close();
   }
 }

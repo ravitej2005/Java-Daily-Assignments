@@ -11,5 +11,6 @@ class pragram1 {
     a = b-a;
     b = b-a;
     System.out.println("After swap: a="+a+" & b="+b);
+    sc.close();
   }
 }

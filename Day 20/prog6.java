@@ -31,5 +31,6 @@ class prog6 {
     // }
 
     System.out.println("Smallest element in array is : " + arr[0]);
+    sc.close();
   }
 }

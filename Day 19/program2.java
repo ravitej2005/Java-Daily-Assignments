@@ -6,6 +6,6 @@ class program2 {
     System.out.print("Enter rupees (rs.) : ");
     double rupees = sc.nextDouble();
     System.out.println("Dollar amount : $"+(rupees*0.0119));
-    
+    sc.close();
   }
 } 

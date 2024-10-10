@@ -44,5 +44,6 @@ class program5 {
     } else {
       System.out.println(day+"\\"+month+"\\"+year+"\nDate doesn't exist");
     }
+    sc.close();
   }
 } 

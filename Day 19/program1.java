@@ -10,5 +10,6 @@ class program1 {
       System.out.print(num+" ");
       num+=a;
     }
+    sc.close();
   }
 }   

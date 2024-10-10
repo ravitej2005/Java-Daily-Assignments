@@ -7,5 +7,6 @@ class program2{
 		int a = sc.nextInt();
 		System.out.println("Second Predecessor: "+(a-2));
 		System.out.println("Second Successor: "+(a+2));
+		sc.close();
 	}
 }

@@ -45,6 +45,6 @@ class prog2 {
     }
     
     System.out.println(temp+" to hexaDecimal is "+hexaNum.reverse());
-    
+    sc.close();
   }
 }

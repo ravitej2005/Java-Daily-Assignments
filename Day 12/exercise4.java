@@ -12,6 +12,7 @@ class exercise4 {
     System.out.print("Enter the sign of operation: ");
     char ch = scanner.nextLine().charAt(0);
     operation(a, b, ch);
+    scanner.close();
   }
 
   static void operation(int a, int b, char ch){

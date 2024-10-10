@@ -8,5 +8,6 @@ class program1{
 		for(int i=10;i>=1;i--){
 			System.out.println(a+"*"+i+" = "+a*i);
 		}
+		sc.close();
 	}
 }

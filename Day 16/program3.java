@@ -11,5 +11,6 @@ class program3 {
     Double R = sc.nextDouble();
 
     System.out.println("Voltage V = "+(I*R));
+    sc.close();
   }
 }

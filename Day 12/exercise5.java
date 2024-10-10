@@ -11,5 +11,6 @@ class exercise5 {
       }
       System.out.println();
     }
+    scanner.close();
   }
 }

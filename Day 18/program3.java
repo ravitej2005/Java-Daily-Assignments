@@ -9,5 +9,6 @@ class program3 {
     int b = sc.nextInt();
     System.out.println("Quotient:"+a/b);
     System.out.println("Reminder:"+a%b);
+    sc.close();
   }
 }
