@@ -12,5 +12,6 @@ class prog5 {
       count++;
     }
     System.out.println("The number "+a+" has "+count+" digits");
+    sc.close();
   }
 }
