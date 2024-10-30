@@ -11,10 +11,10 @@ class prog1 {
         sum+=i;
       }
     }
-    if (sum>a) {
-      System.out.println("Sum of perfect divisors is "+sum+"\nHence "+a+" is abundant number");
+    if (sum<a) {
+      System.out.println(a+" is Deficient Number");
     } else {
-      System.out.println("Sum of perfect divisors is "+sum+"\nHence "+a+" is not abundant number");
+      System.out.println(a+" is not Deficient Number");
     }
     sc.close();
   }
